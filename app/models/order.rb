@@ -37,4 +37,8 @@ class Order < ApplicationRecord
   def self.total_completed
     where(status: 3).count
   end
+
+  def four
+    2 + 2
+  end
 end
